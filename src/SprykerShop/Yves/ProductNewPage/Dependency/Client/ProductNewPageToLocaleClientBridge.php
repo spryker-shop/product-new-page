@@ -22,17 +22,11 @@ class ProductNewPageToLocaleClientBridge implements ProductNewPageToLocaleClient
         $this->localeClient = $localeClient;
     }
 
-    /**
-     * @return string
-     */
     public function getCurrentLanguage(): string
     {
         return $this->localeClient->getCurrentLanguage();
     }
 
-    /**
-     * @return string
-     */
     public function getCurrentLocale(): string
     {
         return $this->localeClient->getCurrentLocale();

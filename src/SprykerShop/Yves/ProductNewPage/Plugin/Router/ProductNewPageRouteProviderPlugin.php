@@ -41,11 +41,6 @@ class ProductNewPageRouteProviderPlugin extends AbstractRouteProviderPlugin
         return $routeCollection;
     }
 
-    /**
-     * @param \Spryker\Yves\Router\Route\RouteCollection $routeCollection
-     *
-     * @return \Spryker\Yves\Router\Route\RouteCollection
-     */
     protected function addNewProductsRoute(RouteCollection $routeCollection): RouteCollection
     {
         $route = $this->buildRoute('/new{categoryPath}', 'ProductNewPage', 'NewProducts', 'indexAction');

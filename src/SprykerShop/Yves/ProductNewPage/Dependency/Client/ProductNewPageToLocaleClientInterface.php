@@ -9,13 +9,7 @@ namespace SprykerShop\Yves\ProductNewPage\Dependency\Client;
 
 interface ProductNewPageToLocaleClientInterface
 {
-    /**
-     * @return string
-     */
     public function getCurrentLanguage(): string;
 
-    /**
-     * @return string
-     */
     public function getCurrentLocale(): string;
 }
