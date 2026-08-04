@@ -5,7 +5,7 @@
     "license": "proprietary",
     "require": {
         "php": ">=8.3",
-        "spryker-shop/shop-ui": "^1.0.0",
+        "spryker-shop/shop-ui": "^1.0.0 || ^2.0.0",
         "spryker/catalog": "^5.2.0",
         "spryker/kernel": "^3.52.0",
         "spryker/locale": "^3.8.0 || ^4.0.0",
